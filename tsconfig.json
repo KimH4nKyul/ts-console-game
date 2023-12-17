@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["ES5", "ES6", "DOM"],
+    "typeRoots": ["node_modules/@types"],
+    "types": [],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmitOnError": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/__test__", "node_modules"]
+}
